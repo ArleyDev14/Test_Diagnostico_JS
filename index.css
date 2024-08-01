@@ -1,0 +1,83 @@
+body{
+    background-color: #892be24d;
+    color: black;
+}
+
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    padding:2vw;
+    border-radius:2vw;
+}
+
+button{
+    color: white;
+    padding:1vw;
+    font-size:2vw;
+    border-radius:1vw;
+    width:15vw;
+}
+
+
+
+#container_botones{
+    display: flex;
+    flex-direction: row;
+    column-gap:2vw;
+    justify-content: center;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:5vw;
+    justify-content: center;
+    align-items: center;
+    column-gap:5vw;
+    row-gap:3vw;
+}
+
+.ruta_card{
+    display: grid;
+    grid-template-rows:60% 20% 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:1vw;
+    justify-content: center;
+    height:100%;
+    border-radius:2vw;
+    border:0.1vw solid black;
+    padding:1vw;
+}
+
+
+.container_cards{
+    display: flex;
+    width:10vw;
+    height:20vw;
+    align-items: center;
+    border-radius: 2vw;
+    padding:1vw;
+}
+
+.imagen_card{
+    width:10vw;
+    height:10vw;
+    border-radius:2vw;
+}
+
+
+#note{
+    background-color:rgb(79, 182, 79);
+}
+
+#java{
+    background-color:red;
+}
+
+#c{
+    background-color:blue;
+}
